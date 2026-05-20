@@ -8,9 +8,20 @@ body{
     margin: 0;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: slateblue;
+    gap: 20px;
+}
+
+#heading{
+    margin-top: -60px;
+    font-size: 40px;
+    text-shadow: 2px 4px 8px whitesmoke ;
+    font-family: algerian;
+    word-spacing: 20px;
+    letter-spacing: 5px;
 }
 
 
